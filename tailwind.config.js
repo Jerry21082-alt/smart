@@ -6,12 +6,24 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      navBackground: "#221f20",
+      yellowGold: "#ffcc01",
+      darkGray: "#333",
+      lightGray: "#4c4c4c",
+      darkBg: "#030000",
+      snow: "#fff",
+      black: "#000",
+      bannerColor: "#666",
+      dateColor: "#999",
+      dimSnow: "#f7f7f7",
+      aboutGold: "#fec325",
+      blue: "#0071bb",
+      gray: "#ccc",
+      borderGray: "#8a8a8a",
+    },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      "banner-bg": "url('/banner-bg.jpg')",
     },
   },
   plugins: [],
