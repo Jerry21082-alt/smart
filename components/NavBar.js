@@ -1,8 +1,5 @@
 "use client";
 
-import { MdMenu, MdOutlineClose } from "react-icons/md";
-import { FiSearch } from "react-icons/fi";
-import Image from "next/image";
 import { makeContext } from "./useStateContext/StateContext";
 import Link from "next/link";
 
