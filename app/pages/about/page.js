@@ -52,7 +52,7 @@ const About = () => {
                     OUR MISSION
                   </h6>
                   <h5
-                    className={`my-[15px] text-[28px] text-center font-bold uppercase`}
+                    className={`my-[15px] text-[28px] text-center font-bold uppercase ${kanit.className}`}
                   >
                     our purpose remains constant
                   </h5>

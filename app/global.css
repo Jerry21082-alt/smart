@@ -113,7 +113,7 @@ about-h1 {
 }
 
 .overlay-effect::after {
-  background-image: url(/e2/images/rv7/banners/halftone_768.png);
+  background-image: url("/overlay.png");
   background-position: center center;
   background-size: cover;
   content: "";
