@@ -396,3 +396,56 @@ h4::after {
   -ms-transform: translateY(-100%);
   transition: transform 0.25s ease;
 }
+
+.menu-btn {
+  padding: 17px 20px 15px;
+}
+
+.menu-btn::before {
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  /* content: "\e94b"; */
+  font-family: armyicons;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 7px;
+  position: relative;
+  top: 7px;
+}
+
+.nav-army-star {
+  align-content: center;
+  background: #221f20;
+  display: flex;
+  flex-wrap: wrap;
+  height: 53px;
+  left: 50%;
+  line-height: 0;
+  max-width: 45%;
+  padding: 0 10px 3px;
+  position: absolute;
+  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  z-index: 100;
+  text-indent: -99999px;
+}
+
+.nav-army-star span {
+  background: url(https://www.army.mil/e2/images/rv7/universal/army_logo_horizontal.svg)
+    no-repeat scroll;
+  display: block;
+  height: 36px;
+  width: 150px;
+}
+
+.footer-list a::after {
+  background: #fff;
+  bottom: 2px;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  transition: width 0.25s ease;
+  width: 0;
+}
