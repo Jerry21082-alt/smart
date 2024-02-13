@@ -121,12 +121,14 @@ const About = () => {
                   <p className="text-snow uppercase road-m text-center">
                     strategic documents
                   </p>
-                  <Image
-                    src={`/roadmap_to_success_icon.svg`}
-                    alt="road to success"
-                    width={500}
-                    height={500}
-                  />
+                  <div className="flex justify-center w-full">
+                    <Image
+                      src="https://www.army.mil/e2/images/rv7/about/graphics/roadmap_to_success_icon.svg"
+                      alt="road to success"
+                      width={70}
+                      height={70}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
